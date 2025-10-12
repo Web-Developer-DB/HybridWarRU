@@ -129,12 +129,13 @@ export default function SearchSection() {
           role="search"
           onSubmit={(event) => event.preventDefault()}
         >
-          <label htmlFor="site-search" className="muted text-sm">
+          <label htmlFor="site-search" className="search-label">
             Suchbegriff
           </label>
           <input
             id="site-search"
             type="search"
+            className="search-input"
             placeholder="Begriffe wie Desinformation, Drohnen, Bot-Farmen …"
             value={query}
             onChange={(event) => setQuery(event.target.value)}
