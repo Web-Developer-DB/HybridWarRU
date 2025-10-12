@@ -1,0 +1,16 @@
+# Node / Vite build artefacts
+node_modules/
+dist/
+.vite/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Local environment files
+.env
+.env.*
+
+# OS specifics
+.DS_Store
+Thumbs.db
