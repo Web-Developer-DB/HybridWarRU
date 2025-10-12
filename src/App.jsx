@@ -1,5 +1,6 @@
 import Header from './components/Header.jsx';
 import HeroSection from './components/sections/HeroSection.jsx';
+import SearchSection from './components/sections/SearchSection.jsx';
 import DefinitionSection from './components/sections/DefinitionSection.jsx';
 import BuildingBlocksSection from './components/sections/BuildingBlocksSection.jsx';
 import CaseStudiesSection from './components/sections/CaseStudiesSection.jsx';
@@ -22,6 +23,7 @@ export default function App() {
       <Header navItems={navItems} />
       <main id="main">
         <HeroSection />
+        <SearchSection />
         <DefinitionSection />
         <BuildingBlocksSection />
         <CaseStudiesSection />
