@@ -1,4 +1,5 @@
 export const navItems = [
+  { label: 'Suche', href: '#suche' },
   { label: 'Was ist das?', href: '#was-ist-das' },
   { label: 'Bausteine', href: '#bausteine' },
   { label: 'Beispiele', href: '#beispiele' },
